@@ -14,7 +14,21 @@ Powered by [LangGraph](https://www.langchain.com/langgraph), it simplifies compl
 
 ## Quick Start 🚀
 
-### 1. Prerequisites
+### Option 1: DevContainer (推薦)
+使用 DevContainer 可以獲得一致的開發環境：
+
+1. 確保已安裝 [Docker Desktop](https://www.docker.com/products/docker-desktop/) 和 [VS Code Dev Containers 擴展](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers)
+2. 在 VS Code 中打開此專案
+3. 點擊 "Reopen in Container" 或使用命令面板搜索 "Dev Containers: Reopen in Container"
+4. 等待環境自動設置完成
+5. 配置 API keys（詳見 [DEVCONTAINER_README.md](DEVCONTAINER_README.md)）
+6. 運行 `./start-dev.sh` 啟動應用程式
+
+📖 詳細的 DevContainer 設置指南請參考 [DEVCONTAINER_README.md](DEVCONTAINER_README.md)
+
+### Option 2: 本地安裝
+
+#### 1. Prerequisites
 This projects uses the following tools:
 
 - [pnpm](https://pnpm.io/installation)
